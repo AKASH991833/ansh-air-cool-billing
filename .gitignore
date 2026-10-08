@@ -1,0 +1,132 @@
+# Environment variables (NEVER commit these!)
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyo
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Exports and PDFs (generated files)
+exports/
+pdfs/
+invoices_pdf/
+*.pdf
+
+# Backups
+backups/
+*.bak
+*.sql
+
+# Temporary files
+*.tmp
+*.temp
+~*
+
+# Test files (keep in separate branch)
+test_*.py
+*_test.py
+
+# Analysis files
+*_analysis.py
+check_*.py
+*_report.md
+
+# Python package
+*.egg-info/
+dist/
+build/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# tox
+.tox/
+
+# transcrypt
+.transcrypt/
+
+# celery
+celerybeat-schedule
+celerybeat.pid
+
+# spyder
+.spyderproject
+.spyproject
+
+# rope
+.ropeproject
+
+# mkdocs
+/site
+
+# pydoc
+*.pyd
+*.pyc
+
+# cython
+*.c
+*.h
+*.cpp
+
+# pyinstaller
+*.manifest
+*.spec.bak
+*.spec
+dist/
+build/
+__pycache__/
+
+# SQLite database
+data/
+desktop_software.db

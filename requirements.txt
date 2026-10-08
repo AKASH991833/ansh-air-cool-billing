@@ -1,0 +1,26 @@
+# AC Service Billing Software - Standalone Edition
+# No MySQL required, no server installation needed
+# Install with: pip install -r requirements.txt
+
+# ============================================================================
+# CORE DEPENDENCIES
+# ============================================================================
+reportlab==4.1.0
+bcrypt==4.1.2
+python-dateutil==2.8.2
+openpyxl==3.1.2
+Pillow>=10.2
+
+# ============================================================================
+# GUI FRAMEWORK (PySide6 - Qt6)
+# ============================================================================
+PySide6>=6.6
+PySide6-Essentials>=6.6
+PySide6-Addons>=6.6
+
+# ============================================================================
+# SYSTEM UTILITIES
+# ============================================================================
+psutil==5.9.7
+schedule==1.2.1
+pywin32>=306 ; sys_platform == 'win32'
